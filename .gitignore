@@ -1,0 +1,31 @@
+# Build directories and artifacts
+build/
+bin/
+lib/
+out/
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+
+# CMake / Make / Ninja
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_*
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Core dumps / test data / db files
+*.db
+*.log
+core
+vgcore.*
